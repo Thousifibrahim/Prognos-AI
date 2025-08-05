@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Data and Logs
+data/cache/*
+data/lancedb/*
+logs/*
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# Keep directory structure but ignore contents
+!data/cache/.gitkeep
+!data/lancedb/.gitkeep
+!logs/.gitkeep
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Environment variables
+.env
+.env.example # You might want to keep this if it's a template, but it's often good practice to ignore it and have a separate example file.
+             # In this case, you have .env.example, so I'll suggest ignoring .env
+             # I'll update the suggestion to ignore .env and keep the .env.example file
+.env.local
+.env.*.local
+
+# Logs
+logs/
+
+# Data
+data/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

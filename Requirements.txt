@@ -1,0 +1,43 @@
+# AGNO Stock Recommendation System Requirements
+
+# Core Dependencies
+groq>=0.4.0
+duckduckgo-search>=3.9.0
+pypdf>=3.17.0
+lancedb>=0.3.0
+pandas>=2.0.0
+yfinance>=0.2.0
+tantivy>=0.20.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data Processing
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Async Support
+aiohttp>=3.8.0
+asyncio>=3.4.3
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+click>=8.1.0
+
+# Optional: For better embeddings (if you want to upgrade from simple embeddings)
+# sentence-transformers>=2.2.0
+# openai>=1.0.0
+
+# Development Dependencies (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Documentation (optional)
+# sphinx>=7.0.0
+# sphinx-rtd-theme>=1.3.0
