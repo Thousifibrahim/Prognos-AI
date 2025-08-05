@@ -60,6 +60,7 @@ mkdir -p data/cache data/lancedb logs
 
 2. **Run the system:**
 ```bash
+python  setup.py # This will initialize the database and download necessary data
 python main.py
 ```
 
@@ -75,18 +76,8 @@ python main.py
 > I'm looking for value stocks in the healthcare sector
 ```
 
-## 📁 Project Structure
+## 📄 Documentation
+For detailed documentation on how to use AGNO, refer to the [[AGNO Documentation](https://docs.agno.com/)]
 
-```
-agno/
-├── main.py                 # Main application entry point
-├── config.py              # Configuration settings
-├── data_collector.py      # Data collection utilities
-├── stock_analyzer.py      # Stock analysis engine
-├── vector_store.py        # Vector database operations
-├── utils.py               # Utility functions
-├── requirements.txt       # Python dependencies
-├── .env                   # Environment variables (create this)
-├── README.md             # This file
-├── data/                 # Data storage
-│   ├── cache/           # Cached data files
+
+Happy coding! If you have any questions or need help, feel free to open an issue on the [GitHub repository]
