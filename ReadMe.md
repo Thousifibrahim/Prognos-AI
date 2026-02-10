@@ -8,7 +8,7 @@
 
 **Intelligent investment insights powered by Groq LLMs and real-time market data.**
 
-# 🚀 AGNO Based — AI-Powered Stock Recommendation System
+## AGNO Based — AI-Powered Stock Recommendation System
 
 ### 🎯 What is AGNO?
 AGNO is a sophisticated financial assistant that bridges the gap between complex market data and natural language. It allows users to query investment ideas in plain English, performing real-time analysis through a RAG (Retrieval-Augmented Generation) pipeline.
